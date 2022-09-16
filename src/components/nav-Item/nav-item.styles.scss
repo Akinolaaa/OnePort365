@@ -1,0 +1,17 @@
+.nav-item{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: .4rem 2rem;
+  cursor: pointer;
+  i{
+    display: flex;
+    align-items: center;;
+  }
+}
+
+.active-nav {
+
+  p {
+    font-weight: bold;
+  }
+}

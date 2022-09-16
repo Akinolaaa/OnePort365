@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard",
+    "logo":"fa-solid fa-grid-horizontal"
+  },
+  {
+    "id": 2,
+    "name": "Admin",
+    "logo": "fa-solid fa-user"
+  },
+  {
+    "id": 3,
+    "name": "Customers",
+    "logo":"fas fa-home"
+  },
+  {
+    "id": 4,
+    "name": "Shipments",
+    "logo":"fas fa-home"
+  },
+  {
+    "id": 5,
+    "name": "Tracking",
+    "logo":"fas fa-grid"
+  },
+  {
+    "id": 6,
+    "name": "Documents",
+    "logo":"fas fa-facebook"
+  },
+  {
+    "id": 7,
+    "name": "Rates",
+    "logo":"fas fa-facebook"
+  },
+  {
+    "id": 8,
+    "name": "Quotes",
+    "logo":"fas fa-facebook"
+  },
+  {
+    "id": 9,
+    "name": "Invoices",
+    "logo":"fas fa-facebook"
+  }
+]

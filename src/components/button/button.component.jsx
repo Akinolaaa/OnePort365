@@ -1,14 +1,16 @@
-import { GreenButton, WhiteButton} from './button.styles';
+import { GreenButton, WhiteButton, GreyButton } from './button.styles';
 
 export const BUTTON_TYPES = {
   green: 'green',
-  white: 'white' 
+  white: 'white',
+  grey: 'grey'
 }
 
 const getButton = (buttonType=BUTTON_TYPES.green) => (
   {
     [BUTTON_TYPES.green]: GreenButton,
     [BUTTON_TYPES.white]: WhiteButton,
+    [BUTTON_TYPES.grey]: GreyButton
   }[buttonType]
 )
 

@@ -1,10 +1,39 @@
 .navigation {
   display: flex;
   flex-direction: column;
-  //height: 100vh;
+  justify-content: space-around;
+  height: 100vh;
   width: 20vw;
   border-right: 1px solid grey;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
+  color: #6B7280;
+
+  .nav-item {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2rem;
+    cursor: pointer;
+    p{
+      //width: auto;
+    }
+    img {
+      border-radius: 25% ;
+      padding: .3rem;
+    }
+  }
+
+  .active-nav {
+    p {
+      font-weight: bold;
+      color: black;
+    }
+    img {
+      background-color: #3AB44A;
+      color: white;
+    }
+  }
 }

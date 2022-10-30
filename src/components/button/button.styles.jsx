@@ -1,31 +1,38 @@
 import styled from 'styled-components';
 
 export const GreenButton = styled.button`
-  min-width: 100px;
+  //min-width: 100px;
   width: auto;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 35px 0 35px;
-  font-size: 15px;
-  background-color: green;
+  min-width: 20px;
+  //height: auto;
+  font-size: .7rem;
+  padding: .6rem .7rem;
+  background-color: #3AB44A;
   color: white;
-  text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
-  font-weight: bolder;
   cursor: pointer;
   display: flex;
   justify-content: center;
-
-  &:hover {
-    border: 1px solid black;
-  }
+  align-items: center;
+  border: none;
+  border-radius: 0.25rem;
+  margin: 1px;
+  white-space: nowrap;
 `
 
 export const WhiteButton = styled(GreenButton)`
   background-color: white;
+  border: 0.5px solid grey;
   color: black;
 
   &:hover {
-    //border: 1px solid black;
+    background-color: grey;
   }
 `
+export const GreyButton = styled(GreenButton)`
+  font-weight: 600;
+  color: #374151;
+  background-color: #F3F4F6;
+  border: 1px solid #D1D5DB ;
+`
+/* /* Dropdown Button */
+/* A */

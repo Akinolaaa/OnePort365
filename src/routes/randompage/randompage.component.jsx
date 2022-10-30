@@ -1,9 +1,11 @@
-
-
-function RandomPage({name}) {
+import {PageContentWrapper} from '../../components/page-content-wrapper/page-content-wrapper.styles';
+function RandomPage() {
 
   return(
-    <h1> This is the {name}</h1>
+    <PageContentWrapper>
+      <h1> Under construction</h1>
+    </PageContentWrapper>
+    
   )
 }
 
